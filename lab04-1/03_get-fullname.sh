@@ -1,0 +1,1 @@
+grep ^$1*: /etc/passwd | cut -d: -f5 | grep -P -o '[A-Za-z\ ]+'

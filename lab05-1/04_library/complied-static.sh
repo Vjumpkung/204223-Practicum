@@ -1,0 +1,1 @@
+gcc -o practicum-info-static -static -I ./practicum-1.0.0/include/ -L ./practicum-1.0.0/lib/ practicum-info.c ./practicum-1.0.0/lib/libpracticum.a
